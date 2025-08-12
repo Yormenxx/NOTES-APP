@@ -1,4 +1,6 @@
+import CallToAction from "@/components/call-to-action";
 import Features from "@/components/features";
+import FooterSection from "@/components/footer";
 import { HeroHeader } from "@/components/header";
 import HeroSection from "@/components/hero-section";
 import { main } from "motion/react-client";
@@ -10,6 +12,8 @@ export default function Home() {
       <HeroHeader/>
       <HeroSection />
       <Features/>
+      <CallToAction/>
+      <FooterSection/>
     </main>
 
   );

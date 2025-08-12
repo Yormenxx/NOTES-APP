@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
-import { Settings2, Sparkles, Zap } from 'lucide-react'
+import { Settings2, Code ,Zap} from 'lucide-react'
 import { ReactNode } from 'react'
 
 export default function Features() {
@@ -8,10 +8,10 @@ export default function Features() {
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
                     <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Built to cover your needs</h2>
-                    <p className="mt-4">Libero sapiente aliquam quibusdam aspernatur, praesentium iusto repellendus.</p>
+                    <p className="mt-4">Create notes for your daily routine.</p>
                 </div>
                 <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
-                    <Card className="group shadow-zinc-950/5">
+                    <Card className="group bg-background">
                         <CardHeader className="pb-3">
                             <CardDecorator>
                                 <Zap
@@ -20,7 +20,7 @@ export default function Features() {
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Customizable</h3>
+                            <h3 className="mt-6 font-medium">Fast notes</h3>
                         </CardHeader>
 
                         <CardContent>
@@ -28,7 +28,7 @@ export default function Features() {
                         </CardContent>
                     </Card>
 
-                    <Card className="group shadow-zinc-950/5">
+                    <Card className="group bg-background">
                         <CardHeader className="pb-3">
                             <CardDecorator>
                                 <Settings2
@@ -45,16 +45,16 @@ export default function Features() {
                         </CardContent>
                     </Card>
 
-                    <Card className="group shadow-zinc-950/5">
+                    <Card className="group bg-background">
                         <CardHeader className="pb-3">
                             <CardDecorator>
-                                <Sparkles
+                                <Code
                                     className="size-6"
                                     aria-hidden
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Powered By AI</h3>
+                            <h3 className="mt-6 font-medium">Friendly code</h3>
                         </CardHeader>
 
                         <CardContent>
